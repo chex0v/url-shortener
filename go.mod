@@ -1,6 +1,6 @@
 module url-shortener
 
-go 1.20
+go 1.25
 
 require (
 	github.com/brianvoe/gofakeit/v6 v6.22.0
@@ -12,7 +12,6 @@ require (
 	github.com/ilyakaznacheev/cleanenv v1.4.2
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 )
 
 require (
@@ -25,6 +24,7 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/hpcloud/tail v1.0.0 // indirect
